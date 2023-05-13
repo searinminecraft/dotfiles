@@ -1,5 +1,6 @@
 #! /bin/sh
 
+$HOME/.config/bspwm/soundhack.sh
 pgrep -x lxsession > /dev/null || lxsession &
 killall picom && picom --experimental-backends || picom --experimental-backends &
 $HOME/.fehbg &
