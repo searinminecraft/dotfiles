@@ -105,8 +105,7 @@ pacman -Sy --noconfirm --needed \
 	bluez \
 	bluez-runit \
 	blueman \
-	flameshot \
-	cava || error
+	flameshot || error
 
 echo '==> Installed packages.'
 
