@@ -1,5 +1,5 @@
 #!/bin/sh
 
 pipewire &
-pipewire-audio &
+pipewire-pulse &
 wireplumber &
